@@ -1,0 +1,14 @@
+org_name: nullstone
+name: aws-ecs-docker-sock
+friendly_name: ECS Host Docker Socket
+description: Binds the docker socket from the host ECS into the ECS service.
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+platform: ecs
+subplatform: ec2
+type: ""
+appCategories:
+    - container
+is_public: true
